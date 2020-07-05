@@ -1,0 +1,10 @@
+<div class="container mt-5">
+    <div *ngIf="!chal">
+      <app-choose-challenger></app-choose-challenger>
+    </div>
+  
+    <div *ngIf="chal">
+      <div class="title has-text-centered">PEACE {{ chal.name }}</div>
+    </div>
+  </div>
+  

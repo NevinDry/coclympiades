@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import *  as  ChallengersData from '../../assets/challengers.json';
 import { Challenger } from '../models/Challengers';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -8,13 +9,21 @@ import { Challenger } from '../models/Challengers';
 export class ChallengerService {
 
   constructor() {
+    const chalStorage = localStorage.getItem("challenger");
+    if (chalStorage !== null) {
+      this.challenger.next(JSON.parse(chalStorage));
+    }
   }
 
-  updateChallengers(challengers: Array<Challenger>) {
-    localStorage.setItem("challengers", JSON.stringify(challengers));
+  private challenger = new BehaviorSubject<Challenger>(null);
+  challengerObservable = this.challenger.asObservable();
+
+  setChallenger(chal: Challenger) {
+    localStorage.setItem("challenger", JSON.stringify(chal));
+    this.challenger.next(chal);
   }
 
   getChallengers(): Array<Challenger> {
-    return JSON.parse(localStorage.getItem("challengers")) || (ChallengersData as any).default;
+    return (ChallengersData as any).default as Array<Challenger>;
   }
 }

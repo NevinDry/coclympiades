@@ -5,15 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { RandomizerComponent } from './components/randomizer/randomizer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/home/home.component';
+import { ChooseChallengerComponent } from './components/choose-challenger/choose-challenger.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RandomizerComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent,
+    ChooseChallengerComponent
   ],
   imports: [
     BrowserModule,

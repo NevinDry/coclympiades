@@ -1,43 +1,35 @@
 [
     {
     "name": "Lili",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 1
   },
   {
     "name": "Brahud",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 2
   },
   {
     "name": "Pedro",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 3
   },
   {
     "name": "Marco",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 4
   },
   {
     "name": "Etienne",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 5
   },
   {
     "name": "Solène",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 6
   },
   {
     "name": "Steph",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 7
   },
   {
     "name": "Dinou",
-    "playedWith2": [],
-    "playedWith4": []
+   "id" : 8
   }
 
 ]

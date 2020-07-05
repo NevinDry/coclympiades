@@ -1,0 +1,11 @@
+<h1 class="title has-text-centered">Coucou toi ! T'es qui ??</h1>
+
+
+<div class="columns is-mobile is-multiline is-centered">
+    <div *ngFor="let chal of challengers" class="column is-4" >
+        <p (click)="chalSelected = chal" [ngClass]="{'is-active': chalSelected && chalSelected.id == chal.id}" class="cardCustom">{{chal.name}}</p>
+    </div>
+
+</div>
+
+<button [disabled]="!chalSelected" (click)="setChallenger(chalSelected)" class="button chalButton is-info is-rounded">Let's Go !!</button>
