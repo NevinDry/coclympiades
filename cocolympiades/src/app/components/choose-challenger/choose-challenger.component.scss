@@ -1,25 +1,12 @@
 .cardCustom {
-  background: white;
   border-radius: 5px;
-  height: 100px;
-  box-shadow: 0 0px 90px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
-
+  height: 60px;
+  color: white;
   padding: 15px;
   font-size: 1.3rem;
 
 }
 
-.cardCustom.is-active {
-  background-color: #00d1b2;
-  font-weight: bold;
-  font-size: 1.5rem
-}
-
-.chalButton {
-  width: 74%;
-  right: auto;
-  left: 13%;
-  height: 65px;
-  position: fixed;
-  bottom: 15px;
+.chalSelected{
+  margin-top: 140px;
 }

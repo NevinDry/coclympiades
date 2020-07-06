@@ -9,12 +9,16 @@ import { Challenger } from 'src/app/models/Challengers';
 })
 export class HomeComponent implements OnInit {
   chal: Challenger = null;
+  go: boolean = false;
 
   constructor(private challengerService: ChallengerService) { }
 
   ngOnInit() {
     this.challengerService.challengerObservable.subscribe((chal) => {
       this.chal = chal;
+      if(this.chal.prono){
+        this.go = true;
+      }
     });
   }
 

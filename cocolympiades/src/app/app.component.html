@@ -1,2 +1,5 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
+<app-navbar *ngIf="chal"></app-navbar>
+
+<div class="container is-fluid mt-5">
+    <router-outlet></router-outlet>
+</div>

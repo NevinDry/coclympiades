@@ -1,5 +1,5 @@
 export class Challenger {
-  constructor(id: number, name: string, prono: number, fetard: number) {
+  constructor(id: number, name: string, prono: Challenger, fetard: Challenger) {
     this.id = id;
     this.name = name;
     this.prono = prono;
@@ -7,6 +7,6 @@ export class Challenger {
   }
   id: number;
   name: string;
-  prono: number;
-  fetard: number;
+  prono: Challenger;
+  fetard: Challenger;
 }

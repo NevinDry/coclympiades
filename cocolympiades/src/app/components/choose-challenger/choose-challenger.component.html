@@ -1,11 +1,32 @@
-<h1 class="title has-text-centered">Coucou toi ! T'es qui ??</h1>
+<h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary">TU ES ...</h1>
 
-
-<div class="columns is-mobile is-multiline is-centered">
-    <div *ngFor="let chal of challengers" class="column is-4" >
-        <p (click)="chalSelected = chal" [ngClass]="{'is-active': chalSelected && chalSelected.id == chal.id}" class="cardCustom">{{chal.name}}</p>
+<div *ngIf="!chalSelected" class="columns is-mobile is-multiline is-centered">
+    <div *ngFor="let chal of challengers" class="column is-4">
+        <p (click)="chalSelected = chal" [ngClass]="{'is-active': chalSelected && chalSelected.id == chal.id}"
+            class="cardCustom background-primary">{{chal.name}}</p>
     </div>
 
 </div>
 
-<button [disabled]="!chalSelected" (click)="setChallenger(chalSelected)" class="button chalButton is-info is-rounded">Let's Go !!</button>
+
+
+<div *ngIf="chalSelected" class="chalSelected">
+    <p class="has-text-centered has-text-primary is-size-3	">Tu as indiqué que tu étais :</p>
+
+    <p class="has-text-centered has-text-primary is-size-2 is-underlined	">{{chalSelected.name}}</p>
+
+    <p class="has-text-centered has-text-primary is-size-3	">C'est GOOD ?</p>
+
+    <div class="columns is-mobile is-multiline is-centered mt-5">
+        <div class="column is-5">
+            <button (click)="setChallenger(chalSelected)"
+                class="button  is-success is-rounded is-pulled-right	is-fullwidth">Yes !!</button>
+
+        </div>
+        <div class="column is-5 ">
+            <button (click)="chalSelected = null"
+                class="button is-danger is-rounded is-pulled-left	is-fullwidth">Nop</button>
+        </div>
+    </div>
+
+</div>

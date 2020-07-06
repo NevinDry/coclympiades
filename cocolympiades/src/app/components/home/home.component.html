@@ -1,10 +1,11 @@
-<div class="container mt-5">
-    <div *ngIf="!chal">
-      <app-choose-challenger></app-choose-challenger>
-    </div>
-  
-    <div *ngIf="chal">
-      <div class="title has-text-centered">PEACE {{ chal.name }}</div>
-    </div>
-  </div>
-  
+<div *ngIf="!go" class="is-perfect-centered">
+  <img src="../../../assets/Logo_Cocolympiades-2020.png" />
+  <button (click)="go = true" class="button is-primary is-fullwidth mt-5">Go</button>
+</div>
+
+<div *ngIf="!chal && go">
+  <app-choose-challenger></app-choose-challenger>
+</div>
+<div *ngIf="chal && go">
+  <div class="title has-text-centered">PEACE {{ chal.name }}</div>
+</div>

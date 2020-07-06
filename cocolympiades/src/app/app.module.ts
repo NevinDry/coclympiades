@@ -9,13 +9,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { ChooseChallengerComponent } from './components/choose-challenger/choose-challenger.component';
+import { PronoComponent } from './components/prono/prono.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ChooseChallengerComponent
+    ChooseChallengerComponent,
+    PronoComponent
   ],
   imports: [
     BrowserModule,

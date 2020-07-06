@@ -26,4 +26,12 @@ export class ChallengerService {
   getChallengers(): Array<Challenger> {
     return (ChallengersData as any).default as Array<Challenger>;
   }
+
+  setProno(prono: Challenger) {
+    let chal: Challenger = JSON.parse(localStorage.getItem("challenger"));
+    chal.prono = prono;
+    localStorage.setItem("challenger", JSON.stringify(chal));
+    this.challenger.next(chal);
+  }
+  
 }

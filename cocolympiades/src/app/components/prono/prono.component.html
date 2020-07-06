@@ -1,0 +1,11 @@
+<h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary">TON PRONOSTIC</h1>
+
+<p class="has-text-centered has-text-primary is-size-3	">Selon toi, quel est le favoris des olympiades?</p>
+<p class="has-text-centered has-text-primary is-size-5">Prends le temps, ça te rapportera des points bonus.</p>
+
+<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-large  is-primary">
+    <select [(ngModel)]="prono">
+        <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
+    </select>
+</div>
+<button (click)="setProno(prono)" class="button is-primary is-fullwidth mt-5">Ok</button>
