@@ -10,6 +10,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { ChooseChallengerComponent } from './components/choose-challenger/choose-challenger.component';
 import { PronoComponent } from './components/prono/prono.component';
+import { DaysComponent } from './components/days/days.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PronoComponent } from './components/prono/prono.component';
     NavbarComponent,
     HomeComponent,
     ChooseChallengerComponent,
-    PronoComponent
+    PronoComponent,
+    DaysComponent
   ],
   imports: [
     BrowserModule,

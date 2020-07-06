@@ -1,0 +1,99 @@
+[{
+    "name": "Jour 1",
+    "id": 1,
+    "trials": [
+      {
+        "name" : "Ventriglisse",
+        "id": 1,
+        "teams": [
+          {
+            "name": "Team 1",
+            "challengers": [
+              {
+                "name": "Lili"
+              },
+              {
+                "name": "Etienne"
+
+              },
+              {
+                "name": "Dinou"
+              },
+              {
+                "name": "Brahud"
+              }
+            ]
+          },
+          {
+            "name": "Team 2",
+            "challengers": [
+              {
+                "name": "Cadoum"
+              },
+              {
+                "name": "Pedro"
+
+              },
+              {
+                "name": "Marco"
+              },
+              {
+                "name": "Valou"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name" : "Corde à sauter",
+        "id": 2,
+        "teams": [
+          {
+            "name": "Team 1",
+            "challengers": [
+              {
+                "name": "Lili"
+              },
+              {
+                "name": "Etienne"
+
+              },
+              {
+                "name": "Dinou"
+              },
+              {
+                "name": "Brahud"
+              }
+            ]
+          },
+          {
+            "name": "Team 2",
+            "challengers": [
+              {
+                "name": "Cadoum"
+              },
+              {
+                "name": "Pedro"
+
+              },
+              {
+                "name": "Marco"
+              },
+              {
+                "name": "Valou"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jour 2",
+    "id": 2
+  },
+  {
+    "name": "Jour 3",
+    "id": 3
+  }
+]
