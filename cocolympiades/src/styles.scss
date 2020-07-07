@@ -1,15 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-    font-family: dk;
-    src: url(assets/dk.otf) format("opentype");
-  }
+  font-family: dk;
+  src: url(assets/dk.otf) format("opentype");
+}
 
-  html{
+html {
 
-    height: 100%;
-  }
-body{
+  height: 100%;
+}
+
+body {
   background-image: url('./assets/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,32 +19,32 @@ body{
 }
 
 .title {
-    font-weight: normal;
+  font-weight: normal;
+  font-family: 'dk';
 }
 
-.is-underlined{
-    text-decoration: underline;
-  }
-
-  .is-vcentered-custom {
-    -webkit-box-align: center;
-       -ms-flex-align: center;
-          align-items: center;
-  }
-
-.background-primary{
-    background-color: #2295B5;
+.is-underlined {
+  text-decoration: underline;
 }
 
-.is-perfect-centered{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+.is-vcentered-custom {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.background-primary {
+  background-color: #2295B5;
+}
+
+.is-perfect-centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 $primary:#2295B5;
-$family-primary: 'dk' !important;
 @import "~bulma";
 @import '~@creativebulma/bulma-collapsible';

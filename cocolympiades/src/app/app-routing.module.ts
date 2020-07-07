@@ -4,7 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { PronoComponent } from './components/prono/prono.component';
 
 
-const routes: Routes = [  { path: '', component: HomeComponent }, { path: 'prono', component: PronoComponent }];
+const routes: Routes = [  { path: '', component: HomeComponent }, { path: 'prono', component: PronoComponent }, { path: 'home', component: HomeComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

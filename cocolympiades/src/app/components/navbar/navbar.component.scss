@@ -1,16 +1,19 @@
-.navbar{
-    height: 60px;
-    background-color: transparent;
-    text-align: center;
-    .navbarImg{
-        margin-left:calc(50% - 35px);
+.customNavbar {
+  height: 80px;
+  display: flex;
+  background-color: transparent;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 33%;
+
+    img {
+      max-height: 80px;
     }
-    img{
-        height: 50px;
-        width: 50px;
-        max-height: 50px;
-    }
-    .navbar-burger{
-        height: 60px;
-    }
+  }
+
+
 }

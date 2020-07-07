@@ -15,12 +15,8 @@ export class PronoComponent implements OnInit {
 
   ngOnInit() {
     this.challengers = this.challengerService.getChallengers();
-    this.challengerService.challengerObservable.subscribe((chal) => {
-      this.prono =  chal.prono ? this.challengers.find(x => x.name = chal.prono.name) : this.challengers[0];
-      // this.challengers.splice(this.challengers.findIndex(x => x.name == chal.name), 1);
-    });
+    this.prono = this.challengers[0];
 
-    console.log(this.challengers);
   }
 
   setProno(prono: Challenger){

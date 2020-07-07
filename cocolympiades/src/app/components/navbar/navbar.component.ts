@@ -1,4 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { ChallengerService } from 'src/app/services/challenger.service';
+import { Day } from 'src/app/models/Day';
 
 @Component({
   selector: 'app-navbar',
@@ -7,17 +9,12 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
-
-  @ViewChild('navBurger', {static: false}) navBurger: ElementRef;
-  @ViewChild('navMenu', {static: false}) navMenu: ElementRef;
+  day:Day = null;
+  constructor(private challengerService: ChallengerService) { }
 
   ngOnInit() {
+    this.challengerService.currentDayObservable.subscribe((day) => {
+      this.day = day;  
+    });
   }
-
-  toggleNavbar() {
-    this.navBurger.nativeElement.classList.toggle('is-active');
-    this.navMenu.nativeElement.classList.toggle('is-active');
-  }
-
 }

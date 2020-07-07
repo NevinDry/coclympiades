@@ -2,11 +2,13 @@ import { Injectable } from '@angular/core';
 import *  as  ChallengersData from '../../assets/challengers.json';
 import { Challenger } from '../models/Challengers';
 import { BehaviorSubject } from 'rxjs';
+import { Day } from '../models/Day';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChallengerService {
+
 
   constructor() {
     const chalStorage = localStorage.getItem("challenger");
@@ -17,6 +19,9 @@ export class ChallengerService {
 
   private challenger = new BehaviorSubject<Challenger>(null);
   challengerObservable = this.challenger.asObservable();
+
+  private currentDay = new BehaviorSubject<Day>(null);
+  currentDayObservable = this.currentDay.asObservable();
 
   setChallenger(chal: Challenger) {
     localStorage.setItem("challenger", JSON.stringify(chal));
@@ -32,6 +37,10 @@ export class ChallengerService {
     chal.prono = prono;
     localStorage.setItem("challenger", JSON.stringify(chal));
     this.challenger.next(chal);
+  }
+
+  setCurrentDay(day: Day) {
+    this.currentDay.next(day);
   }
   
 }

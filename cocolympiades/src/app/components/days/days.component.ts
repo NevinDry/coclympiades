@@ -26,6 +26,9 @@ export class DaysComponent implements OnInit {
     this.challengerService.challengerObservable.subscribe((chal) => {
       this.chal = chal;  
     });
+    this.challengerService.currentDayObservable.subscribe((day) => {
+      this.daySelected = day;  
+    });
   }
 
   isItTime(time: number) {
@@ -38,7 +41,7 @@ export class DaysComponent implements OnInit {
   }
 
   selectDay(day: number) {
-    this.daySelected = this.days.find(x => x.id == day);
+    this.challengerService.setCurrentDay(this.days.find(x => x.id == day));
   }
 
   selectTrial(trial: Trial) {
