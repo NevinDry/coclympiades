@@ -23,15 +23,14 @@ export class VoteComponent implements OnInit {
 
     this.challengerService.challengerObservable.subscribe((chal) => {
       this.challengers = this.challengerService.getChallengers();
-      this.challengers.splice(this.challengers.findIndex(x => x.name == chal.name), 1);
+      let chalInArray = this.challengers.findIndex(x => x.name == chal.name);
+      if(chalInArray != -1){
+        this.challengers.splice(chalInArray, 1);
+      }
       this.fetard = this.challengers[3];
       this.fairplay = this.challengers[6];
       this.hippie = this.challengers[9];
     });
-
-
-
-
   }
 
   setVote() {

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import *  as  ChallengersData from '../../assets/challengers.json';
 import { Challenger } from '../models/Challengers';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Day } from '../models/Day';
 import { AngularFirestore } from '@angular/fire/firestore';
 
@@ -40,7 +40,7 @@ export class ChallengerService {
     this.challenger.next(chal);
   }
 
-  setVote(hippie: Challenger, fetard: Challenger, fairplay: Challenger): Promise<any> {
+  async setVote(hippie: Challenger, fetard: Challenger, fairplay: Challenger): Promise<any> {
     let chal: Challenger = JSON.parse(localStorage.getItem("challenger"));
     chal.fetard = fetard;
     chal.fairplay = fairplay;
@@ -48,13 +48,18 @@ export class ChallengerService {
 
     localStorage.setItem("challenger", JSON.stringify(chal));
     this.challenger.next(chal);
-    console.log("s");
 
-    return this.firestore
-      .collection("results").add(chal);
+    this.getResults().subscribe((votes:Array<Challenger>) => {
+      if (votes.find(x => x.name == chal.name)) {
+        throw "deja voté";
+      } else {
+        return this.firestore
+          .collection("results").add(chal);
+      }
+    })
   }
 
-  getResults(){
+  getResults() {
     return this.firestore.collection('results').valueChanges();
   }
 

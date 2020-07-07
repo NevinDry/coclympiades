@@ -5,21 +5,21 @@
 
 
 <p class="has-text-primary is-size-5">Le + Hippie</p>
-<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+<div class="select is-rounded is-fullwidth is-rounded  mb-5 is-medium  is-primary">
     <select [(ngModel)]="hippie">
         <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
     </select>
 </div>
 
 <p class="has-text-primary is-size-5">Le + Fairplay</p>
-<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+<div class="select is-rounded is-fullwidth is-rounded  mb-5 is-medium  is-primary">
     <select [(ngModel)]="fairplay">
         <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
     </select>
 </div>
 
 <p class="has-text-primary is-size-5">Le + Fetard</p>
-<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+<div class="select is-rounded is-fullwidth is-rounded mb-5 is-medium  is-primary">
     <select [(ngModel)]="fetard">
         <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
     </select>
