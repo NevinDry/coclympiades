@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ChallengerService } from 'src/app/services/challenger.service';
 import { Challenger } from 'src/app/models/Challengers';
 
@@ -10,16 +10,27 @@ import { Challenger } from 'src/app/models/Challengers';
 export class HomeComponent implements OnInit {
   chal: Challenger = null;
   go: boolean = false;
+  hacky = 0;
 
   constructor(private challengerService: ChallengerService) { }
 
   ngOnInit() {
     this.challengerService.challengerObservable.subscribe((chal) => {
-      this.chal = chal;
-      if(this.chal.prono){
-        this.go = true;
+      if (chal) {
+        this.chal = chal;
+        if (this.chal.prono) {
+          this.go = true;
+        }
       }
     });
+  }
+
+  hackit(){
+    this.hacky += 1;
+  }
+
+  onHacked() {
+    this.hacky = 0;
   }
 
 }

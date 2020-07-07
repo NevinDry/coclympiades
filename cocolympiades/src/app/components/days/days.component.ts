@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import *  as  DaysData from '../../../assets/days.json';
 import { Day } from 'src/app/models/Day';
 import bulmaCollapsible from '@creativebulma/bulma-collapsible';
@@ -22,12 +22,16 @@ export class DaysComponent implements OnInit {
 
   constructor(private challengerService: ChallengerService) { }
 
+  @Input() hacky: number;
+  @Output() hacked = new EventEmitter<any>();
+
   ngOnInit() {
     this.challengerService.challengerObservable.subscribe((chal) => {
       this.chal = chal;  
     });
     this.challengerService.currentDayObservable.subscribe((day) => {
       this.daySelected = day;  
+      this.hacked.emit();
     });
   }
 
@@ -42,11 +46,17 @@ export class DaysComponent implements OnInit {
 
   selectDay(day: number) {
     this.challengerService.setCurrentDay(this.days.find(x => x.id == day));
+    this.trialSelected = null;
+    this.hacked.emit();
   }
 
   selectTrial(trial: Trial) {
     this.trialSelected = trial;
-    this.team = trial.teams.find(x => x.challengers.find(y => y.name == this.chal.name));
+    this.team = trial.teams ? trial.teams.find(x => x.challengers.find(y => y.name == this.chal.name)) : null;
+  }
+
+  hackit(){
+    return this.hacky < 5;
   }
 
 }
