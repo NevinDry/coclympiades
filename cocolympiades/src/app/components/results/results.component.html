@@ -12,14 +12,9 @@
     <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold">Le + fairplay</p>
     <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{fairplay[0] + ' avec ' + fairplay[1] + ' votes'   }}</p>
     
-    <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold">Le Favoris</p>
-    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{prono[0] + ' avec ' + prono[1] + ' votes'   }}</p>
-    <div *ngIf="prono[0] == challenger.prono.name">
-        <p class="has-text-centered has-text-primary is-size-4	 has-text-success ">T'as eu le bon prono !! Viens nous le dire !!</p>
-    </div>
-    <div *ngIf="prono[0] != challenger.prono.name">
-        <p class="has-text-centered has-text-primary is-size-4	has-text-primary">Tu t'es planté dans ton prono :(</p>
-    </div>
+    <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold">Ton prono Favoris</p>
+    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{challenger.prono.name}}</p>
+    
 </div>
 
 
