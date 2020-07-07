@@ -1,6 +1,6 @@
 <h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary">T'ES QUI ?</h1>
 
-<div *ngIf="!chalSelected" class="columns is-mobile is-multiline is-centered">
+<div *ngIf="!chalSelected" class="columns is-variable is-1 is-mobile is-multiline is-centered">
     <div *ngFor="let chal of challengers" class="column is-4">
         <p (click)="chalSelected = chal" [ngClass]="{'is-active': chalSelected && chalSelected.id == chal.id}"
             class="cardCustom background-primary">{{chal.name}}</p>
