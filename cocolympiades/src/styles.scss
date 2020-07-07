@@ -5,7 +5,16 @@
     src: url(assets/dk.otf) format("opentype");
   }
 
+  html{
+
+    height: 100%;
+  }
 body{
+  background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  height: 100%;
 }
 
 .title {
