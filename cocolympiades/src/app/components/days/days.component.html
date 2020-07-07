@@ -1,22 +1,22 @@
 <div *ngIf="daySelected == null" class="columns days mt-2">
-    <button (click)="selectDay(1)"
+    <button (click)="selectDay(1)" [disabled]="isDisabled(0)"
         class="column button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-3 bd-notification">
-        Jour 1</button>
-    <button (click)="selectDay(2)" [disabled]="!isItTime(1594542600000) && hackit()"
+        <img *ngIf="isDisabled(0)" src="../../../assets/lock.png" /> Jour 1</button>
+    <button (click)="selectDay(2)" [disabled]="isDisabled(1594542600000)"
         class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-3 bd-notification">
-        <img *ngIf="!isItTime(1594542600000)" src="../../../assets/lock.png" /> Jour 2
+        <img *ngIf="isDisabled(1594542600000)" src="../../../assets/lock.png" /> Jour 2
     </button>
-    <button (click)="selectDay(3)" [disabled]="!isItTime(1594629000000) && hackit()"
+    <button (click)="selectDay(3)" [disabled]="isDisabled(1594629000000)"
         class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-3 bd-notification">
-        <img *ngIf="!isItTime(1594629000000)" src="../../../assets/lock.png" />Jour 3
+        <img *ngIf="isDisabled(1594629000000)" src="../../../assets/lock.png" />Jour 3
     </button>
-    <button [disabled]="!isItTime(1594645200000) && hackit()" [routerLink]="['/vote']"
+    <button [disabled]="isDisabled(1594645200000)" [routerLink]="['/vote']"
         class="column  button is-fullwidth is-12 has-text-centered is-success mt-3 has-text-white is-size-3 bd-notification">
-        <img *ngIf="!isItTime(1594645200000)" src="../../../assets/lock.png" /> Vote
+        <img *ngIf="isDisabled(1594645200000)" src="../../../assets/lock.png" /> Vote
     </button>
-    <button [disabled]="!isItTime(1594645800000) && hackit()"
+    <button [disabled]="!ended && hackit()"  [routerLink]="['/results']"
         class="column  button is-fullwidth is-12 has-text-centered  is-success mt-3 has-text-white is-size-3 bd-notification">
-        <img *ngIf="!isItTime(1594645800000)" src="../../../assets/lock.png" /> Resultats
+        <img *ngIf="!ended && hackit()" src="../../../assets/lock.png" /> Resultats
     </button>
 </div>
 

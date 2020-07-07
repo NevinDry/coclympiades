@@ -14,6 +14,8 @@ export class VoteComponent implements OnInit {
   hippie: Challenger = null;
   fairplay: Challenger = null;
   fetard: Challenger = null;
+  vote: boolean = false;
+  error: any;
 
   constructor(private challengerService: ChallengerService, private router: Router) { }
 
@@ -33,8 +35,15 @@ export class VoteComponent implements OnInit {
   }
 
   setVote() {
-    this.challengerService.setVote(this.hippie, this.fairplay, this.fetard);
-    this.router.navigateByUrl('/home');
+    this.challengerService.setVote(this.hippie, this.fairplay, this.fetard).then(res => {
+      this.vote = true;
+      setTimeout(() => {
+        this.router.navigateByUrl('/home');
+      }, 3000);
+    }).catch(err => {
+      this.error = err;
+      console.log(err);
+    });
   }
 
 }

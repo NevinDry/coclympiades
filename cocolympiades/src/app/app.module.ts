@@ -12,6 +12,10 @@ import { ChooseChallengerComponent } from './components/choose-challenger/choose
 import { PronoComponent } from './components/prono/prono.component';
 import { DaysComponent } from './components/days/days.component';
 import { VoteComponent } from './components/vote/vote.component';
+import { AngularFireModule } from '@angular/fire';
+import { firebaseConfig } from '../../firebaseConfig.js'
+import { AngularFirestore } from '@angular/fire/firestore';
+import { ResultsComponent } from './components/results/results.component';
 
 @NgModule({
   declarations: [
@@ -21,16 +25,18 @@ import { VoteComponent } from './components/vote/vote.component';
     ChooseChallengerComponent,
     PronoComponent,
     DaysComponent,
-    VoteComponent
+    VoteComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [AngularFirestore],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

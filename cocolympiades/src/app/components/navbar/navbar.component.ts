@@ -10,17 +10,21 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  day:Day = null;
+  day: Day = null;
   constructor(private challengerService: ChallengerService, private router: Router) { }
 
   ngOnInit() {
     this.challengerService.currentDayObservable.subscribe((day) => {
-      this.day = day;  
+      this.day = day;
     });
   }
 
-  backToMenu(){
+  backToMenu() {
     this.challengerService.setCurrentDay(null);
     this.router.navigateByUrl('/home');
+  }
+
+  refresh(): void {
+    window.location.reload();
   }
 }

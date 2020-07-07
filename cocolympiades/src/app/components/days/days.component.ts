@@ -19,6 +19,7 @@ export class DaysComponent implements OnInit {
   team: Team = null;
   days: Array<Day> = (DaysData as any).default as Array<Day>;
   chal: Challenger = null;
+  ended: boolean = false;
 
   constructor(private challengerService: ChallengerService) { }
 
@@ -28,6 +29,9 @@ export class DaysComponent implements OnInit {
   ngOnInit() {
     this.challengerService.challengerObservable.subscribe((chal) => {
       this.chal = chal;  
+      if(this.chal.hippie){
+        this.ended = true;
+      }
     });
     this.challengerService.currentDayObservable.subscribe((day) => {
       this.daySelected = day;  
@@ -42,6 +46,20 @@ export class DaysComponent implements OnInit {
     } else {
       return false;
     }
+  }
+
+  isDisabled(time: number){
+    if(!this.hackit()){
+      return false;
+    }
+    else if(this.ended){
+      return true;
+    }else if(!this.isItTime(time)){
+      return true;
+    }else{
+      return false;
+    }
+    
   }
 
   selectDay(day: number) {

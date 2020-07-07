@@ -3,6 +3,7 @@ import *  as  ChallengersData from '../../assets/challengers.json';
 import { Challenger } from '../models/Challengers';
 import { BehaviorSubject } from 'rxjs';
 import { Day } from '../models/Day';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ import { Day } from '../models/Day';
 export class ChallengerService {
 
 
-  constructor() {
+  constructor(private firestore: AngularFirestore) {
     const chalStorage = localStorage.getItem("challenger");
     if (chalStorage !== null) {
       this.challenger.next(JSON.parse(chalStorage));
@@ -39,7 +40,7 @@ export class ChallengerService {
     this.challenger.next(chal);
   }
 
-  setVote(hippie: Challenger, fetard: Challenger, fairplay: Challenger) {
+  setVote(hippie: Challenger, fetard: Challenger, fairplay: Challenger): Promise<any> {
     let chal: Challenger = JSON.parse(localStorage.getItem("challenger"));
     chal.fetard = fetard;
     chal.fairplay = fairplay;
@@ -47,11 +48,18 @@ export class ChallengerService {
 
     localStorage.setItem("challenger", JSON.stringify(chal));
     this.challenger.next(chal);
+    console.log("s");
+
+    return this.firestore
+      .collection("results").add(chal);
   }
 
+  getResults(){
+    return this.firestore.collection('results').valueChanges();
+  }
 
   setCurrentDay(day: Day) {
     this.currentDay.next(day);
   }
-  
+
 }
