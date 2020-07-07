@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ChooseChallengerComponent } from './components/choose-challenger/choose-challenger.component';
 import { PronoComponent } from './components/prono/prono.component';
 import { DaysComponent } from './components/days/days.component';
+import { VoteComponent } from './components/vote/vote.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DaysComponent } from './components/days/days.component';
     HomeComponent,
     ChooseChallengerComponent,
     PronoComponent,
-    DaysComponent
+    DaysComponent,
+    VoteComponent
   ],
   imports: [
     BrowserModule,

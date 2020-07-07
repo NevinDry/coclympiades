@@ -10,7 +10,7 @@
         class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-3 bd-notification">
         <img *ngIf="!isItTime(1594629000000)" src="../../../assets/lock.png" />Jour 3
     </button>
-    <button [disabled]="!isItTime(1594645200000) && hackit()"
+    <button [disabled]="!isItTime(1594645200000) && hackit()" [routerLink]="['/vote']"
         class="column  button is-fullwidth is-12 has-text-centered is-success mt-3 has-text-white is-size-3 bd-notification">
         <img *ngIf="!isItTime(1594645200000)" src="../../../assets/lock.png" /> Vote
     </button>

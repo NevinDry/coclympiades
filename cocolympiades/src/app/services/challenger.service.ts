@@ -39,6 +39,17 @@ export class ChallengerService {
     this.challenger.next(chal);
   }
 
+  setVote(hippie: Challenger, fetard: Challenger, fairplay: Challenger) {
+    let chal: Challenger = JSON.parse(localStorage.getItem("challenger"));
+    chal.fetard = fetard;
+    chal.fairplay = fairplay;
+    chal.hippie = hippie;
+
+    localStorage.setItem("challenger", JSON.stringify(chal));
+    this.challenger.next(chal);
+  }
+
+
   setCurrentDay(day: Day) {
     this.currentDay.next(day);
   }

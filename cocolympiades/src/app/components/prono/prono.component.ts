@@ -16,7 +16,6 @@ export class PronoComponent implements OnInit {
   ngOnInit() {
     this.challengers = this.challengerService.getChallengers();
     this.prono = this.challengers[0];
-
   }
 
   setProno(prono: Challenger){

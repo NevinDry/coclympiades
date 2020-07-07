@@ -498,7 +498,7 @@
     "id": 2,
     "trials": [{
         "name": "Volley",
-        "id": 7,
+        "id": 1,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -570,7 +570,7 @@
       },
       {
         "name": "Canoë",
-        "id": 8,
+        "id": 2,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -657,7 +657,7 @@
       },
       {
         "name": "Tir à la corde",
-        "id": 9,
+        "id": 3,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -729,7 +729,7 @@
       },
       {
         "name": "Belote",
-        "id": 10,
+        "id": 4,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -816,7 +816,7 @@
       },
       {
         "name": "Molky",
-        "id": 11,
+        "id": 5,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -903,7 +903,7 @@
       },
       {
         "name": "Beer Pong",
-        "id": 12,
+        "id": 6,
         "teams": [{
           "name": "Equipe A",
           "challengers": [{
@@ -978,7 +978,7 @@
       },
       {
         "name": "Beer Pong OZ",
-        "id": 13,
+        "id": 7,
         "teams": [{
           "name": "Equipe A",
           "challengers": [{
@@ -1059,25 +1059,25 @@
   },
   {
     "name": "Jour 3",
-    "id": 3,
+    "id":3 ,
     "trials": [{
         "name": "Golf",
-        "id": 14,
+        "id": 1,
         "teams": null
       },
       {
         "name": "Tir à la carabine",
-        "id": 15,
+        "id": 2,
         "teams": null
       },
       {
         "name": "50m Cognac",
-        "id": 16,
+        "id": 3,
         "teams": null
       },
       {
         "name": "Beer Pong",
-        "id": 17,
+        "id": 4,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
@@ -1154,7 +1154,7 @@
       },
       {
         "name": "Beer Pong OZ",
-        "id": 13,
+        "id": 5,
         "teams": [{
           "name": "Equipe A",
           "challengers": [{

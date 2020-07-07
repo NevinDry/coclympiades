@@ -1,0 +1,26 @@
+<h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary mb-0">Ton Vote</h1>
+<p class="has-text-centered has-text-primary is-size-6">Cherches pas ton nom, tu peux pas voter pour toi :)</p>
+
+
+<p class="has-text-primary is-size-5">Le + Hippie</p>
+<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+    <select [(ngModel)]="hippie">
+        <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
+    </select>
+</div>
+
+<p class="has-text-primary is-size-5">Le + Fairplay</p>
+<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+    <select [(ngModel)]="fairplay">
+        <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
+    </select>
+</div>
+
+<p class="has-text-primary is-size-5">Le + Fetard</p>
+<div class="select is-rounded is-fullwidth is-rounded mt-5 mb-5 is-medium  is-primary">
+    <select [(ngModel)]="fetard">
+        <option *ngFor="let chal of challengers" [ngValue]="chal">{{chal.name}}</option>
+    </select>
+</div>
+
+<button (click)="setVote()" class="button is-primary is-fullwidth mt-5">Ok</button>
