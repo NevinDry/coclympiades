@@ -39,7 +39,7 @@
                     {{team.name}}
                 </p>
                 <ng-container *ngFor="let challenger of team.challengers">
-                    <p class="is-5 has-text-primary" [ngClass]="{'has-text-weight-bold': chal.name == challenger.name}">
+                    <p class="is-5 has-text-primary" [ngClass]="{'has-text-weight-bold': chal.id == challenger.id}">
                         {{challenger.name}}
                     </p>
                 </ng-container>

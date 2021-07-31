@@ -22,14 +22,16 @@ export class VoteComponent implements OnInit {
   ngOnInit() {
 
     this.challengerService.challengerObservable.subscribe((chal) => {
+    
       this.challengers = this.challengerService.getChallengers();
-      let chalInArray = this.challengers.findIndex(x => x.name == chal.name);
+      let chalInArray = this.challengers.findIndex(x => x.id == chal.id);
       if(chalInArray != -1){
         this.challengers.splice(chalInArray, 1);
       }
       this.fetard = this.challengers[3];
       this.fairplay = this.challengers[6];
       this.hippie = this.challengers[9];
+
     });
   }
 
@@ -44,5 +46,7 @@ export class VoteComponent implements OnInit {
       console.log(err);
     });
   }
+
+
 
 }

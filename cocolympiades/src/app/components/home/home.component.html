@@ -7,6 +7,6 @@
   <app-choose-challenger></app-choose-challenger>
 </div>
 <div *ngIf="chal && go">
-  <h1 (click)="hackit()" class="title has-text-centered has-text-weight-light is-1 has-text-primary">PEACE {{ chal.name }}</h1>
+  <h1 (click)="hackit()" class="title has-text-centered has-text-weight-light is-1 has-text-primary">UUGH {{ chal.name }} !</h1>
   <app-days [hacky]="hacky" (hacked)="onHacked()"></app-days>
 </div>

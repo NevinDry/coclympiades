@@ -1,6 +1,6 @@
 [
   {
-    "name": "Nevin",
+    "name": "Puipui",
     "id": 9
   },
   {
@@ -16,11 +16,11 @@
     "id": 3
   },
   {
-    "name": "Baby'M",
+    "name": "Marco",
     "id": 4
   },
   {
-    "name": "Baby'S",
+    "name": "Jo",
     "id": 5
   },
   {
@@ -36,7 +36,7 @@
     "id": 8
   },
   {
-    "name": "Bitonio",
+    "name": "Antoine",
     "id": 10
   },
   {
@@ -52,7 +52,7 @@
     "id": 13
   },
   {
-    "name": "Julio",
+    "name": "Alix",
     "id": 14
   },
   {
@@ -60,7 +60,23 @@
     "id": 15
   },
   {
-    "name": "Soso",
+    "name": "Claire",
     "id": 16
+  },
+  {
+    "name": "Sophie",
+    "id": 17
+  },
+  {
+    "name": "Myke",
+    "id": 18
+  },
+  {
+    "name": "Julia",
+    "id": 19
+  },
+  {
+    "name": "Goeric",
+    "id": 20
   }
 ]

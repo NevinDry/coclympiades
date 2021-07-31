@@ -1,9 +1,18 @@
 <h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary" >Les elus</h1>
 
-<p *ngIf="!finish" class="has-text-centered has-text-primary is-size-4	mb-t"> En attente de tous les votes...</p>
+<p *ngIf="!finish" class="has-text-centered has-text-primary is-size-4	mb-t"> 
+    En attente de tous les votes...
+    <br>
+    reste à voter :
+    <br>
+    <span *ngFor="let missingChalenger of missingChallengers">  
+        {{missingChalenger.name}}
+        <br>
+    </span>
+</p>
 
 <div *ngIf="hippie && finish">
-    <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold ">Le + hippie</p>
+    <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold ">Le + indien</p>
     <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{hippie[0] + ' avec ' + hippie[1] + ' votes'   }}</p>
     
     <p class="has-text-centered has-text-primary is-size-4	has-text-weight-bold ">Le + fetard</p>

@@ -7,214 +7,238 @@
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Julio"
+                "name": "Valou", "id" : 6
               },
               {
-                "name": "Arthuro"
+                "name": "Julia", "id" : 19
 
               },
               {
-                "name": "Valou"
+                "name": "Alix", "id" : 14
               },
               {
-                "name": "Baby'S"
+                "name": "Myke", "id" : 18
+              },
+              {
+                "name": "Marco", "id" : 4
               }
             ]
           },
           {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Paupau"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Lili"
+                "name": "Lili", "id" : 1
 
               },
               {
-                "name": "Didou"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Braudo"
+                "name": "Arthuro", "id":15
+              },
+              {
+                "name": "Puipui", "id" : 9
               }
             ]
           },
           {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Soso"
+                "name": "Cadoum", "id" : 11
               },
               {
-                "name": "Pedro"
+                "name": "Pedro", "id" : 3
 
               },
               {
-                "name": "Baby'M"
+                "name": "Claire", "id" : 16
               },
               {
-                "name": "Nevin"
+                "name": "Antoine", "id" : 10
+              },
+              {
+                "name": "Paupau", "id" : 7
               }
             ]
           },
           {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Goeric", "id" : 20
               },
               {
-                "name": "Cadoum"
+                "name": "Jo", "id" : 5
               },
               {
-                "name": "Prissou"
+                "name": "Paulo", "id" : 13
               },
               {
-                "name": "Paulo"
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Braudo", "id" : 2
               }
             ]
           }
         ]
       },
       {
-        "name": "Corde à sauter",
+        "name": "Tir à la corde",
         "id": 2,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Julio"
+                "name": "Cadoum", "id" : 11
               },
               {
-                "name": "Lili"
+                "name": "Pedro", "id" : 3
 
               },
               {
-                "name": "Baby'M"
+                "name": "Julia", "id" : 19
               },
               {
-                "name": "Paulo"
+                "name": "Marco", "id" : 4
+              },
+              {
+                "name": "Myke", "id" : 18
               }
             ]
           },
           {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Soso"
+                "name": "Paupau", "id" : 7
               },
               {
-                "name": "Cadoum"
+                "name": "Claire", "id" : 16
 
               },
               {
-                "name": "Valou"
+                "name": "Puipui", "id" : 9
               },
               {
-                "name": "Braudo"
+                "name": "Paulo", "id" : 13
+              },
+              {
+                "name": "Jo", "id" : 5
               }
             ]
           },
           {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Paupau"
+                "name": "Lili", "id" : 1
               },
               {
-                "name": "Pedro"
+                "name": "Goeric", "id" : 20
 
               },
               {
-                "name": "Prissou"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Baby'S"
+                "name": "Arthuro", "id" : 15
+              },
+              {
+                "name": "Braudo", "id" : 2
               }
             ]
           },
           {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Antoine", "id" : 10
               },
               {
-                "name": "Arthuro"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Didou"
+                "name": "Sophie", "id" : 17
               },
               {
-                "name": "Nevin"
+                "name": "Alix", "id" : 14
+              },
+              {
+                "name": "Valou", "id" : 6
               }
             ]
           }
         ]
       },
       {
-        "name": "Belote",
+        "name": "Molky (x3)",
         "id": 3,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Cadoum"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Prissou"
+                "name": "Lili", "id" : 1
 
               }
             ]
           }, {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Braudo"
+                "name": "Jo", "id" : 5
               },
               {
-                "name": "Pedro"
+                "name": "Antoine", "id" : 10
 
               }
             ]
           }, {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Didou"
+                "name": "Julia", "id" : 19
               },
               {
-                "name": "Soso"
+                "name": "Alix", "id" : 14
 
               }
             ]
           }, {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Paupau"
+                "name": "Marco", "id" : 4
 
               }
             ]
           }, {
             "name": "Equipe E",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Braudo", "id" : 2
               },
               {
-                "name": "Paulo"
+                "name": "Arthuro", "id" : 15
 
               }
             ]
           }, {
             "name": "Equipe F",
             "challengers": [{
-                "name": "Julio"
+                "name": "Myke", "id" : 18
               },
               {
-                "name": "Valou"
+                "name": "Puipui", "id" : 9
 
               }
             ]
           }, {
             "name": "Equipe G",
             "challengers": [{
-                "name": "Arthuro"
+                "name": "Pedro", "id" : 3
               },
               {
-                "name": "Lili"
+                "name": "Goeric", "id" : 20
 
               }
             ]
@@ -222,86 +246,109 @@
           {
             "name": "Equipe H",
             "challengers": [{
-                "name": "Baby'M"
+                "name": "Paupau", "id" : 7
               },
               {
-                "name": "Nevin"
+                "name": "Cadoum", "id" : 11
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Sophie", "id" : 17
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Paulo", "id" : 13
+              },
+              {
+                "name": "Claire", "id" : 16
 
               }
             ]
           }
         ]
       },
+
       {
-        "name": "Molky",
+        "name": "Pétanque (x2)",
         "id": 4,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Baby'M"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Lili"
+                "name": "Paulo", "id" : 13
 
               }
             ]
           }, {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Jo", "id" : 5
               },
               {
-                "name": "Nevin"
+                "name": "Puipui", "id" : 9
 
               }
             ]
           }, {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Arthuro"
+                "name": "Julia", "id" : 19
               },
               {
-                "name": "Valou"
+                "name": "Pedro", "id" : 3
 
               }
             ]
           }, {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Didou"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Prissou"
+                "name": "Paupau", "id" : 7
 
               }
             ]
           }, {
             "name": "Equipe E",
             "challengers": [{
-                "name": "Julio"
+                "name": "Braudo", "id" : 2
               },
               {
-                "name": "Soso"
+                "name": "Lili", "id" : 1
 
               }
             ]
           }, {
             "name": "Equipe F",
             "challengers": [{
-                "name": "Cadoum"
+                "name": "Myke", "id" : 18
               },
               {
-                "name": "Pedro"
+                "name": "Alix", "id" : 14
 
               }
             ]
           }, {
             "name": "Equipe G",
             "challengers": [{
-                "name": "Braudo"
+                "name": "Marco", "id" : 4
               },
               {
-                "name": "Paupau"
+                "name": "Sophie", "id" : 17
 
               }
             ]
@@ -309,10 +356,32 @@
           {
             "name": "Equipe H",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Claire", "id" : 16
               },
               {
-                "name": "Paulo"
+                "name": "Valou", "id" : 6
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Goeric", "id" : 20
+              },
+              {
+                "name": "Arthuro", "id" : 15
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Cadoum", "id" : 11
+              },
+              {
+                "name": "Antoine", "id" : 10
 
               }
             ]
@@ -323,72 +392,161 @@
         "name": "Beer Pong",
         "id": 5,
         "teams": [{
+          "name": "Equipe A",
+          "challengers": [{
+              "name": "Valou", "id" : 6
+            },
+            {
+              "name": "Braudo", "id" : 2
+
+            },
+            {
+              "name": "Prissou", "id" : 12
+            },
+            {
+              "name": "Sophie", "id" : 17
+
+            },
+            {
+              "name": "Claire", "id" : 16
+
+            }
+          ]
+        }, {
+          "name": "Equipe B",
+          "challengers": [{
+              "name": "Antoine", "id" : 10
+            },
+            {
+              "name": "Puipui", "id" : 9
+
+            },
+            {
+              "name": "Paupau", "id" : 7
+            },
+            {
+              "name": "Cadoum", "id" : 11
+
+            },
+            {
+              "name": "Myke", "id" : 18
+
+            }
+          ]
+        }, {
+          "name": "Equipe C",
+          "challengers": [{
+              "name": "Arthuro", "id" : 15
+            },
+            {
+              "name": "Pedro", "id" : 3
+
+            },
+            {
+              "name": "Paulo", "id" : 13
+            },
+            {
+              "name": "Alix", "id" : 14
+
+            },
+            {
+              "name": "Julia", "id" : 19
+
+            }
+          ]
+        }, {
+          "name": "Equipe D",
+          "challengers": [{
+              "name": "Jo", "id" : 5
+            },
+            {
+              "name": "Marco", "id" : 4
+
+            },
+            {
+              "name": "Lili", "id" : 1
+            },
+            {
+              "name": "Didou", "id" : 8
+
+            },
+            {
+              "name": "Goeric", "id" : 20
+
+            }
+          ]
+        }]
+      },
+      {
+        "name": "Beer Pong OZ (x2)",
+        "id": 6,
+        "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Didou"
+                "name": "Valou", "id" : 6
               },
               {
-                "name": "Paupau"
+                "name": "Paulo", "id" : 13
 
               }
             ]
           }, {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Braudo"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Nevin"
+                "name": "Julia", "id" : 19
 
               }
             ]
           }, {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Marco", "id" : 4
               },
               {
-                "name": "Valou"
+                "name": "Puipui", "id" : 9
 
               }
             ]
           }, {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Baby'M"
+                "name": "Goeric", "id" : 20
               },
               {
-                "name": "Soso"
+                "name": "Antoine", "id" : 10
 
               }
             ]
           }, {
             "name": "Equipe E",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Lili"
+                "name": "Pedro", "id" : 3
 
               }
             ]
           }, {
             "name": "Equipe F",
             "challengers": [{
-                "name": "Pedro"
+                "name": "Jo", "id" : 5
               },
               {
-                "name": "Julio"
+                "name": "Cadoum", "id" : 11
 
               }
             ]
           }, {
             "name": "Equipe G",
             "challengers": [{
-                "name": "Cadoum"
+                "name": "Arthuro", "id" : 15
               },
               {
-                "name": "Paulo"
+                "name": "Claire", "id" : 16
 
               }
             ]
@@ -396,85 +554,105 @@
           {
             "name": "Equipe H",
             "challengers": [{
-                "name": "Arthuro"
+                "name": "Alix", "id" : 14
               },
               {
-                "name": "Prissou"
+                "name": "Lili", "id" : 1
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Myke", "id" : 18
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Paupau", "id" : 7
+              },
+              {
+                "name": "Braudo", "id" : 2
               }
             ]
           }
         ]
       },
       {
-        "name": "Beer Pong OZ",
-        "id": 6,
+        "name": "Beer Pong OZ 2 (x2)",
+        "id": 7,
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Julio"
+                "name": "Lili", "id" : 1
               },
               {
-                "name": "Prissou"
+                "name": "Myke", "id" : 18
 
               }
             ]
           }, {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Baby'M"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Valou"
+                "name": "Antoine", "id" : 10
 
               }
             ]
           }, {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Claire", "id" : 16
               },
               {
-                "name": "Lili"
+                "name": "Jo", "id" : 5
 
               }
             ]
           }, {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Didou"
+                "name": "Sophie", "id" : 17
               },
               {
-                "name": "Pedro"
+                "name": "Braudo", "id" : 2
 
               }
             ]
           }, {
             "name": "Equipe E",
             "challengers": [{
-                "name": "Cadoum"
+                "name": "Cadoum", "id" : 11
               },
               {
-                "name": "Paupau"
+                "name": "Marco", "id" : 4
 
               }
             ]
           }, {
             "name": "Equipe F",
             "challengers": [{
-                "name": "Braudo"
+                "name": "Alix", "id" : 14
               },
               {
-                "name": "Paulo"
+                "name": "Puipui", "id" : 9
 
               }
             ]
           }, {
             "name": "Equipe G",
             "challengers": [{
-                "name": "Arthuro"
+                "name": "Goeric", "id" : 20
               },
               {
-                "name": "Soso"
+                "name": "Prissou", "id" : 12
 
               }
             ]
@@ -482,10 +660,30 @@
           {
             "name": "Equipe H",
             "challengers": [{
-                "name": "Bitonio"
+                "name": "Julia", "id" : 19
               },
               {
-                "name": "Nevin"
+                "name": "Paupau", "id" : 7
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Arthuro", "id" : 15
+              },
+              {
+                "name": "Paulo", "id" : 13
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Pedro", "id" : 3
               }
             ]
           }
@@ -502,71 +700,829 @@
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Prissou"
+                "name": "Pedro", "id" : 3
               },
               {
-                "name": "Paulo"
+                "name": "Braudo", "id" : 2
 
               },
               {
-                "name": "Baby'M"
+                "name": "Alix", "id" : 14
               },
               {
-                "name": "Julio"
+                "name": "Julia", "id" : 19
+              },
+              {
+                "name": "Myke", "id" : 18
               }
             ]
           },
           {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Didou"
+                "name": "Valou", "id" : 6
               },
               {
-                "name": "Cadoum"
+                "name": "Jo", "id" : 5
 
               },
               {
-                "name": "Pedro"
+                "name": "Cadoum", "id" : 11
               },
               {
-                "name": "Arthuro"
+                "name": "Paulo", "id" : 13
+              },
+              {
+                "name": "Claire", "id" : 16
               }
             ]
           },
           {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Paupau"
+                "name": "Arthuro", "id" : 15
               },
               {
-                "name": "Lili"
+                "name": "Lili", "id" : 1
 
               },
               {
-                "name": "Bitonio"
+                "name": "Goeric", "id" : 20
               },
               {
-                "name": "Braudo"
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Paupau", "id" : 7
               }
             ]
           },
           {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Antoine", "id" : 10
               },
               {
-                "name": "Soso"
+                "name": "Puipui", "id" : 9
               },
               {
-                "name": "Valou"
+                "name": "Didou", "id" : 8
               },
               {
-                "name": "Nevin"
+                "name": "Marco", "id" : 4
+              },
+              {
+                "name": "Prissou", "id" : 12
               }
             ]
           }
         ]
+      },
+      {
+        "name": "Coinche 1",
+        "id": 2,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Alix", "id" : 14
+              },
+              {
+                "name": "Sophie", "id" : 17
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Paupau", "id" : 7
+              },
+              {
+                "name": "Marco", "id" : 4
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Julia", "id" : 19
+              },
+              {
+                "name": "Arthuro", "id" : 15
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Didou", "id" : 8
+              },
+              {
+                "name": "Claire", "id" : 16
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Braudo", "id" : 2
+              },
+              {
+                "name": "Goeric", "id" : 20
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Cadoum", "id" : 11
+              },
+              {
+                "name": "Puipui", "id" : 9
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Pedro", "id" : 3
+              },
+              {
+                "name": "Prissou", "id" : 12
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Jo", "id" : 5
+              },
+              {
+                "name": "Myke", "id" : 18
+
+              }
+            ]
+          }, {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Lili", "id" : 1
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Paulo", "id" : 13
+              },
+              {
+                "name": "Antoine", "id" : 10
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coinche 2",
+        "id": 3,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Prissou", "id" : 12
+              },
+              {
+                "name": "Antoine", "id" : 10
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Jo", "id" : 5
+              },
+              {
+                "name": "Alix", "id" : 14
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Julia", "id" : 19
+              },
+              {
+                "name": "Marco", "id" : 4
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Didou", "id" : 8
+              },
+              {
+                "name": "Myke", "id" : 18
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Braudo", "id" : 2
+              },
+              {
+                "name": "Paulo", "id" : 13
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Goeric", "id" : 20
+              },
+              {
+                "name": "Puipui", "id" : 9
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Pedro", "id" : 3
+              },
+              {
+                "name": "Cadoum", "id" : 11
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Paupau", "id" : 7
+
+              }
+            ]
+          }, {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Arthuro", "id" : 15
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Claire", "id" : 16
+              },
+              {
+                "name": "Lili", "id" : 1
+
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coinche 3",
+        "id": 4,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Didou", "id" : 8
+              },
+              {
+                "name": "Arthuro", "id" : 15
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Antoine", "id" : 10
+              },
+              {
+                "name": "Claire", "id" : 16
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Prissou", "id" : 12
+              },
+              {
+                "name": "Braudo", "id" : 2
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Jo", "id" : 5
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Alix", "id" : 14
+              },
+              {
+                "name": "Goeric", "id" : 20
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Paupau", "id" : 7
+              },
+              {
+                "name": "Puipui", "id" : 9
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Marco", "id" : 4
+              },
+              {
+                "name": "Myke", "id" : 18
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Pedro", "id" : 3
+              },
+              {
+                "name": "Paulo", "id" : 13
+
+              }
+            ]
+          }, {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Cadoum", "id" : 11
+              },
+              {
+                "name": "Lili", "id" : 1
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Julia", "id" : 19
+
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Pétanque (x2)",
+        "id": 5,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Prissou", "id" : 12
+              },
+              {
+                "name": "Arthuro", "id" : 15
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Jo", "id" : 5
+              },
+              {
+                "name": "Lili", "id" : 1
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Julia", "id" : 19
+              },
+              {
+                "name": "Myke", "id" : 18
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Didou", "id" : 8
+              },
+              {
+                "name": "Alix", "id" : 14
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Braudo", "id" : 2
+              },
+              {
+                "name": "Marco", "id" : 4
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Puipui", "id" : 9
+              },
+              {
+                "name": "Antoine", "id" : 10
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Pedro", "id" : 3
+              },
+              {
+                "name": "Claire", "id" : 16
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Goeric", "id" : 20
+              },
+              {
+                "name": "Paupau", "id" : 7
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Cadoum", "id" : 11
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Paulo", "id" : 13
+
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Beer Pong 2",
+        "id": 6,
+        "teams": [{
+          "name": "Equipe A",
+          "challengers": [{
+              "name": "Valou", "id" : 6
+            },
+            {
+              "name": "Julia", "id" : 19
+
+            },
+            {
+              "name": "Puipui", "id" : 9
+            },
+            {
+              "name": "Didou", "id" : 8
+
+            },
+            {
+              "name": "Jo", "id" : 5
+
+            }
+          ]
+        }, {
+          "name": "Equipe B",
+          "challengers": [{
+              "name": "Antoine", "id" : 10
+            },
+            {
+              "name": "Braudo", "id" : 2
+
+            },
+            {
+              "name": "Prissou", "id" : 12
+            },
+            {
+              "name": "Sophie", "id" : 17
+
+            },
+            {
+              "name": "Paulo", "id" : 13
+
+            }
+          ]
+        }, {
+          "name": "Equipe C",
+          "challengers": [{
+              "name": "Myke", "id" : 18
+            },
+            {
+              "name": "Pedro", "id" : 3
+
+            },
+            {
+              "name": "Cadoum", "id" : 11
+            },
+            {
+              "name": "Marco", "id" : 4
+
+            },
+            {
+              "name": "Alix", "id" : 14
+
+            }
+          ]
+        }, {
+          "name": "Equipe D",
+          "challengers": [{
+              "name": "Arthuro", "id" : 15
+            },
+            {
+              "name": "Goeric", "id" : 20
+
+            },
+            {
+              "name": "Lili", "id" : 1
+            },
+            {
+              "name": "Paupau", "id" : 7
+
+            },
+            {
+              "name": "Claire", "id" : 16
+
+            }
+          ]
+        }]
+      },
+      {
+        "name": "Beer Pong OZ 3 (x2)",
+        "id": 7,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Prissou", "id" : 12
+              },
+              {
+                "name": "Cadoum", "id" : 11
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Jo", "id" : 5
+              },
+              {
+                "name": "Julia", "id" : 19
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Arthuro", "id": 15
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Lili", "id" : 1
+              },
+              {
+                "name": "Didou", "id" : 8
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Antoine", "id" : 10
+              },
+              {
+                "name": "Braudo", "id" : 2
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Alix", "id" : 14
+              },
+              {
+                "name": "Paupau", "id" : 7
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Marco", "id" : 4
+              },
+              {
+                "name": "Pedro", "id" : 3
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Marco", "id" : 4
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Claire", "id" : 16
+              },
+              {
+                "name": "Puipui", "id" : 9
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Paulo", "id" : 13
+              },
+              {
+                "name": "Goeric", "id" : 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beer Pong OZ 4 (x2)",
+        "id": 8,
+        "teams": [{
+            "name": "Equipe A",
+            "challengers": [{
+                "name": "Marco", "id" : 4
+              },
+              {
+                "name": "Pedro", "id" : 3
+
+              }
+            ]
+          }, {
+            "name": "Equipe B",
+            "challengers": [{
+                "name": "Puipui", "id" : 9
+              },
+              {
+                "name": "Braudo", "id" : 2
+
+              }
+            ]
+          }, {
+            "name": "Equipe C",
+            "challengers": [{
+                "name": "Arthuro", "id" : 15
+              },
+              {
+                "name": "Jo", "id" : 5
+
+              }
+            ]
+          }, {
+            "name": "Equipe D",
+            "challengers": [{
+                "name": "Valou", "id" : 6
+              },
+              {
+                "name": "Antoine", "id" : 10
+
+              }
+            ]
+          }, {
+            "name": "Equipe E",
+            "challengers": [{
+                "name": "Sophie", "id" : 17
+              },
+              {
+                "name": "Alix", "id" : 14
+
+              }
+            ]
+          }, {
+            "name": "Equipe F",
+            "challengers": [{
+                "name": "Didou", "id" : 8
+              },
+              {
+                "name": "Cadoum", "id" : 11
+
+              }
+            ]
+          }, {
+            "name": "Equipe G",
+            "challengers": [{
+                "name": "Lili", "id" : 1
+              },
+              {
+                "name": "Paupau", "id" : 7
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe H",
+            "challengers": [{
+                "name": "Prissou", "id" : 12
+              },
+              {
+                "name": "Paulo", "id" : 13
+              }
+            ]
+          },
+          {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Myke", "id" : 18
+              },
+              {
+                "name": "Claire", "id" : 16
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Goeric", "id" : 20
+              },
+              {
+                "name": "Julia", "id" : 19
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jour 3",
+    "id": 1,
+    "trials": [{
+        "name": "Golf",
+        "id": 1,
+        "teams": null
       },
       {
         "name": "Canoë",
@@ -574,70 +1530,70 @@
         "teams": [{
             "name": "Equipe A",
             "challengers": [{
-                "name": "Soso"
+                "name": "Lili", "id" : 1
               },
               {
-                "name": "Pedro"
+                "name": "Valou", "id" : 6
 
               }
             ]
           }, {
             "name": "Equipe B",
             "challengers": [{
-                "name": "Didou"
+                "name": "Cadoum", "id" : 11
               },
               {
-                "name": "Bitonio"
+                "name": "Braudo", "id" : 2
 
               }
             ]
           }, {
             "name": "Equipe C",
             "challengers": [{
-                "name": "Prissou"
+                "name": "Prissou", "id" : 12
               },
               {
-                "name": "Nevin"
+                "name": "Pierre"
 
               }
             ]
           }, {
             "name": "Equipe D",
             "challengers": [{
-                "name": "Cadoum"
+                "name": "Marc"
               },
               {
-                "name": "Baby'M"
+                "name": "Paupau", "id" : 7
 
               }
             ]
           }, {
             "name": "Equipe E",
             "challengers": [{
-                "name": "Lili"
+                "name": "Paulo", "id" : 13
               },
               {
-                "name": "Braudo"
+                "name": "Etienne"
 
               }
             ]
           }, {
             "name": "Equipe F",
             "challengers": [{
-                "name": "Paulo"
+                "name": "Julia", "id" : 19
               },
               {
-                "name": "Valou"
+                "name": "Antoine", "id" : 10
 
               }
             ]
           }, {
             "name": "Equipe G",
             "challengers": [{
-                "name": "Baby'S"
+                "name": "Alix", "id" : 14
               },
               {
-                "name": "Arthuro"
+                "name": "Arthuro", "id" : 15
 
               }
             ]
@@ -645,10 +1601,31 @@
           {
             "name": "Equipe H",
             "challengers": [{
-                "name": "Paupau"
+                "name": "Sophie", "id" : 17
               },
               {
-                "name": "Julio"
+                "name": "Jo", "id" : 5
+
+              }
+            ]
+          }, {
+            "name": "Equipe I",
+            "challengers": [{
+                "name": "Claire", "id" : 16
+              },
+              {
+                "name": "Goeric", "id" : 20
+
+              }
+            ]
+          },
+          {
+            "name": "Equipe J",
+            "challengers": [{
+                "name": "Diane"
+              },
+              {
+                "name": "Myke", "id" : 18
 
               }
             ]
@@ -656,580 +1633,106 @@
         ]
       },
       {
-        "name": "Tir à la corde",
+        "name": "Tir à l'arc",
         "id": 3,
-        "teams": [{
-            "name": "Equipe A",
-            "challengers": [{
-                "name": "Bitonio"
-              },
-              {
-                "name": "Pedro"
-
-              },
-              {
-                "name": "Baby'S"
-              },
-              {
-                "name": "Paulo"
-              }
-            ]
-          },
-          {
-            "name": "Equipe B",
-            "challengers": [{
-                "name": "Paupau"
-              },
-              {
-                "name": "Cadoum"
-
-              },
-              {
-                "name": "Valou"
-              },
-              {
-                "name": "Julio"
-              }
-            ]
-          },
-          {
-            "name": "Equipe C",
-            "challengers": [{
-                "name": "Lili"
-              },
-              {
-                "name": "Soso"
-
-              },
-              {
-                "name": "Baby'M"
-              },
-              {
-                "name": "Arthuro"
-              }
-            ]
-          },
-          {
-            "name": "Equipe D",
-            "challengers": [{
-                "name": "Prissou"
-              },
-              {
-                "name": "Didou"
-              },
-              {
-                "name": "Braudo"
-              },
-              {
-                "name": "Nevin"
-              }
-            ]
-          }
-        ]
+        "teams": null
       },
+
+
       {
-        "name": "Belote",
+        "name": "Beer Pong 3",
         "id": 4,
         "teams": [{
-            "name": "Equipe A",
-            "challengers": [{
-                "name": "Cadoum"
-              },
-              {
-                "name": "Braudo"
-
-              }
-            ]
-          }, {
-            "name": "Equipe B",
-            "challengers": [{
-                "name": "Lili"
-              },
-              {
-                "name": "Nevin"
-
-              }
-            ]
-          }, {
-            "name": "Equipe C",
-            "challengers": [{
-                "name": "Valou"
-              },
-              {
-                "name": "Soso"
-
-              }
-            ]
-          }, {
-            "name": "Equipe D",
-            "challengers": [{
-                "name": "Arthuro"
-              },
-              {
-                "name": "Baby'M"
-
-              }
-            ]
-          }, {
-            "name": "Equipe E",
-            "challengers": [{
-                "name": "Didou"
-              },
-              {
-                "name": "Julio"
-
-              }
-            ]
-          }, {
-            "name": "Equipe F",
-            "challengers": [{
-                "name": "Paulo"
-              },
-              {
-                "name": "Paupau"
-
-              }
-            ]
-          }, {
-            "name": "Equipe G",
-            "challengers": [{
-                "name": "Pedro"
-              },
-              {
-                "name": "Prissou"
-
-              }
-            ]
-          },
-          {
-            "name": "Equipe H",
-            "challengers": [{
-                "name": "Baby'S"
-              },
-              {
-                "name": "Bitonio"
-
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Molky",
-        "id": 5,
-        "teams": [{
-            "name": "Equipe A",
-            "challengers": [{
-                "name": "Paupau"
-              },
-              {
-                "name": "Soso"
-
-              }
-            ]
-          }, {
-            "name": "Equipe B",
-            "challengers": [{
-                "name": "Cadoum"
-              },
-              {
-                "name": "Julio"
-
-              }
-            ]
-          }, {
-            "name": "Equipe C",
-            "challengers": [{
-                "name": "Lili"
-              },
-              {
-                "name": "Prissou"
-
-              }
-            ]
-          }, {
-            "name": "Equipe D",
-            "challengers": [{
-                "name": "Baby'M"
-              },
-              {
-                "name": "Baby'S"
-
-              }
-            ]
-          }, {
-            "name": "Equipe E",
-            "challengers": [{
-                "name": "Pedro"
-              },
-              {
-                "name": "Paulo"
-
-              }
-            ]
-          }, {
-            "name": "Equipe F",
-            "challengers": [{
-                "name": "Braudo"
-              },
-              {
-                "name": "Didou"
-
-              }
-            ]
-          }, {
-            "name": "Equipe G",
-            "challengers": [{
-                "name": "Arthuro"
-              },
-              {
-                "name": "Bitonio"
-
-              }
-            ]
-          },
-          {
-            "name": "Equipe H",
-            "challengers": [{
-                "name": "Valou"
-              },
-              {
-                "name": "Nevin"
-
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Beer Pong",
-        "id": 6,
-        "teams": [{
           "name": "Equipe A",
           "challengers": [{
-              "name": "Baby'M"
+              "name": "Valou", "id" : 6
             },
             {
-              "name": "Nevin"
+              "name": "Braudo", "id" : 2
 
             },
             {
-              "name": "Didou"
+              "name": "Prissou", "id" : 12
+            },
+            {
+              "name": "Sophie", "id" : 17
+
+            },
+            {
+              "name": "Claire", "id" : 16
 
             }
           ]
         }, {
           "name": "Equipe B",
           "challengers": [{
-              "name": "Cadoum"
+              "name": "Antoine", "id" : 10
             },
             {
-              "name": "Baby'S"
+              "name": "Puipui", "id" : 9
 
             },
             {
-              "name": "Bitonio"
-
-            }
-          ]
-        }, {
-          "name": "Equipe C",
-          "challengers": [{
-              "name": "Arthuro"
+              "name": "Paupau", "id" : 7
             },
             {
-              "name": "Valou"
+              "name": "Cadoum", "id" : 11
 
             },
             {
-              "name": "Prissou"
-
-            }
-          ]
-        }, {
-          "name": "Equipe D",
-          "challengers": [{
-              "name": "Pedro"
-            },
-            {
-              "name": "Braudo"
-
-            },
-            {
-              "name": "Soso"
-
-            }
-          ]
-        }, {
-          "name": "Equipe E",
-          "challengers": [{
-              "name": "Paupau"
-            },
-            {
-              "name": "Lili"
-
-            },
-            {
-              "name": "Julio"
-
-            }
-          ]
-        }]
-      },
-      {
-        "name": "Beer Pong OZ",
-        "id": 7,
-        "teams": [{
-          "name": "Equipe A",
-          "challengers": [{
-              "name": "Baby'S"
-            },
-            {
-              "name": "Valou"
-
-            }
-          ]
-        }, {
-          "name": "Equipe B",
-          "challengers": [{
-              "name": "Cadoum"
-            },
-            {
-              "name": "Pedro"
+              "name": "Myke", "id" : 18
 
             }
           ]
         }, {
           "name": "Equipe C",
           "challengers": [{
-              "name": "Arthuro"
+              "name": "Arthuro", "id" : 15
             },
             {
-              "name": "Soso"
+              "name": "Pedro", "id" : 3
+
+            },
+            {
+              "name": "Paulo", "id": 13
+            },
+            {
+              "name": "Julia", "id" : 19
+
+            },
+            {
+              "name": "Alix", "id" : 14
 
             }
           ]
         }, {
           "name": "Equipe D",
           "challengers": [{
-              "name": "Baby'M"
+              "name": "Jo", "id" : 5
             },
             {
-              "name": "Prissou"
-
-            }
-          ]
-        }, {
-          "name": "Equipe E",
-          "challengers": [{
-              "name": "Braudo"
-            },
-            {
-              "name": "Bitonio"
-
-            }
-          ]
-        }, {
-          "name": "Equipe F",
-          "challengers": [{
-              "name": "Julio"
-            },
-            {
-              "name": "Nevin"
-
-            }
-          ]
-        }, {
-          "name": "Equipe G",
-          "challengers": [{
-              "name": "Didou"
-            },
-            {
-              "name": "Lili"
+              "name": "Goeric", "id" : 20
 
             },
             {
-              "name": "Paupau"
+              "name": "Marco", "id" : 4
+            },
+            {
+              "name": "Lili", "id" : 1
+
+            },
+            {
+              "name": "Didou", "id" : 8
 
             }
           ]
         }]
-      }
-    ]
-  },
-  {
-    "name": "Jour 3",
-    "id":3 ,
-    "trials": [{
-        "name": "Golf",
-        "id": 1,
-        "teams": null
       },
-      {
-        "name": "Tir à la carabine",
-        "id": 2,
-        "teams": null
-      },
+
       {
         "name": "50m Cognac",
-        "id": 3,
-        "teams": null
-      },
-      {
-        "name": "Beer Pong",
-        "id": 4,
-        "teams": [{
-            "name": "Equipe A",
-            "challengers": [{
-                "name": "Soso"
-              },
-              {
-                "name": "Didou"
-
-              }
-            ]
-          }, {
-            "name": "Equipe B",
-            "challengers": [{
-                "name": "Cadoum"
-              },
-              {
-                "name": "Baby'S"
-
-              }
-            ]
-          }, {
-            "name": "Equipe C",
-            "challengers": [{
-                "name": "Arthuro"
-              },
-              {
-                "name": "Julio"
-
-              }
-            ]
-          }, {
-            "name": "Equipe D",
-            "challengers": [{
-                "name": "Bitonio"
-              },
-              {
-                "name": "Valou"
-
-              }
-            ]
-          }, {
-            "name": "Equipe E",
-            "challengers": [{
-                "name": "Braudo"
-              },
-              {
-                "name": "Nevin"
-              }
-            ]
-          }, {
-            "name": "Equipe F",
-            "challengers": [{
-                "name": "Baby'M"
-              },
-              {
-                "name": "Pedro"
-              }
-            ]
-          },
-          {
-            "name": "Equipe G",
-            "challengers": [{
-                "name": "Lili"
-              },
-              {
-                "name": "Prissou"
-              },
-              {
-                "name": "Paupau"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Beer Pong OZ",
         "id": 5,
-        "teams": [{
-          "name": "Equipe A",
-          "challengers": [{
-              "name": "Pedro"
-            },
-            {
-              "name": "Didou"
-
-            }
-          ]
-        }, {
-          "name": "Equipe B",
-          "challengers": [{
-              "name": "Julio"
-            },
-            {
-              "name": "Arthuro"
-
-            }
-          ]
-        }, {
-          "name": "Equipe C",
-          "challengers": [{
-              "name": "Valou"
-            },
-            {
-              "name": "Prissou"
-
-            }
-          ]
-        }, {
-          "name": "Equipe D",
-          "challengers": [{
-              "name": "Bitonio"
-            },
-            {
-              "name": "Soso"
-
-            }
-          ]
-        }, {
-          "name": "Equipe E",
-          "challengers": [{
-              "name": "Nevin"
-            },
-            {
-              "name": "Cadoum"
-
-            }
-          ]
-        }, {
-          "name": "Equipe F",
-          "challengers": [{
-              "name": "Baby'M"
-            },
-            {
-              "name": "Baby'S"
-
-            }
-          ]
-        }, {
-          "name": "Equipe G",
-          "challengers": [{
-              "name": "Braudo"
-            },
-            {
-              "name": "Lili"
-
-            },
-            {
-              "name": "Paupau"
-
-            }
-          ]
-        }]
+        "teams": null
       }
     ]
   }

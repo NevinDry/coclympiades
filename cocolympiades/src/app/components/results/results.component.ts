@@ -14,6 +14,7 @@ export class ResultsComponent implements OnInit {
   prono = null;
   challenger: Challenger = null;
   finish: boolean = false;
+  missingChallengers: Array<Challenger> = [];
   constructor(private challengerService: ChallengerService) { }
 
   ngOnInit() {
@@ -21,7 +22,7 @@ export class ResultsComponent implements OnInit {
       this.challenger = chal;
     });
     this.challengerService.getResults().subscribe((data: Array<Challenger>) => {
-      if (data.length == 16) {
+      if (data.length >= 20) {
         const fetards = [];
         const fairplays = [];
         const hippies = [];
@@ -38,6 +39,12 @@ export class ResultsComponent implements OnInit {
         this.prono = this.findMostOcc(pronos);
 
         this.finish = true;
+      }else{
+        this.challengerService.getChallengers().forEach(challenger => {
+           if(data.find(x => x.id != challenger.id)){
+             this.missingChallengers.push(challenger);
+           }
+        })
       }
     });
   }

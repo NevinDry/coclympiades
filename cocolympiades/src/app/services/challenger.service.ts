@@ -50,7 +50,7 @@ export class ChallengerService {
     this.challenger.next(chal);
 
     this.getResults().subscribe((votes:Array<Challenger>) => {
-      if (votes.find(x => x.name == chal.name)) {
+      if (votes.find(x => x.id == chal.id)) {
         throw "deja voté";
       } else {
         return this.firestore

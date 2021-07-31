@@ -70,7 +70,7 @@ export class DaysComponent implements OnInit {
 
   selectTrial(trial: Trial) {
     this.trialSelected = trial;
-    this.team = trial.teams ? trial.teams.find(x => x.challengers.find(y => y.name == this.chal.name)) : null;
+    this.team = trial.teams ? trial.teams.find(x => x.challengers.find(y => y.id == this.chal.id)) : null;
   }
 
   hackit(){
