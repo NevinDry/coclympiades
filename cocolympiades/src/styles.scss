@@ -34,7 +34,7 @@ body {
 }
 
 .background-primary {
-  background-color: #2295B5;
+  background-color: #eab573;
 }
 
 .is-perfect-centered {
@@ -45,6 +45,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
-$primary:#976a37;
+
+
+$primary:#eab573;
+$secondary: #f02214;
+$info	: #f02214;
 @import "~bulma";
 @import '~@creativebulma/bulma-collapsible';

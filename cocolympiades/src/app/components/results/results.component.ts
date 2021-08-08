@@ -15,6 +15,8 @@ export class ResultsComponent implements OnInit {
   challenger: Challenger = null;
   finish: boolean = false;
   missingChallengers: Array<Challenger> = [];
+  error: any;
+
   constructor(private challengerService: ChallengerService) { }
 
   ngOnInit() {
@@ -22,30 +24,36 @@ export class ResultsComponent implements OnInit {
       this.challenger = chal;
     });
     this.challengerService.getResults().subscribe((data: Array<Challenger>) => {
-      if (data.length >= 20) {
-        const fetards = [];
-        const fairplays = [];
-        const hippies = [];
-        const pronos = [];
-        data.forEach(element => {
-          fetards.push(element.fetard.name);
-          fairplays.push(element.fairplay.name);
-          hippies.push(element.hippie.name);
-          pronos.push(element.prono.name);
-        });
-        this.fetard = this.findMostOcc(fetards);
-        this.fairplay = this.findMostOcc(fairplays);
-        this.hippie = this.findMostOcc(hippies);
-        this.prono = this.findMostOcc(pronos);
-
-        this.finish = true;
-      }else{
-        this.challengerService.getChallengers().forEach(challenger => {
-           if(data.find(x => x.id != challenger.id)){
-             this.missingChallengers.push(challenger);
-           }
-        })
+      try {
+        if (data.length >= 20) {
+          const fetards = [];
+          const fairplays = [];
+          const hippies = [];
+          const pronos = [];
+          data.forEach(element => {
+            fetards.push(element.fetard.name);
+            fairplays.push(element.fairplay.name);
+            hippies.push(element.hippie.name);
+            pronos.push(element.prono.name);
+          });
+          this.fetard = this.findMostOcc(fetards);
+          this.fairplay = this.findMostOcc(fairplays);
+          this.hippie = this.findMostOcc(hippies);
+          this.prono = this.findMostOcc(pronos);
+  
+          this.finish = true;
+        }else{
+          this.challengerService.getChallengers().forEach(challenger => {
+             if(data.find(x => x.id != challenger.id)){
+               this.missingChallengers.push(challenger);
+             }
+          })
+        }
+      } catch (error) {
+        this.error = error;
       }
+    }, err => {
+      this.error = err;
     });
   }
 

@@ -7,6 +7,15 @@
   <app-choose-challenger></app-choose-challenger>
 </div>
 <div *ngIf="chal && go">
-  <h1 (click)="hackit()" class="title has-text-centered has-text-weight-light is-1 has-text-primary">UUGH {{ chal.name }} !</h1>
+  <h1 (click)="hackit()" class="title title-chal has-text-centered has-text-weight-light is-1 has-text-black">UUGH {{ chal.name }} !</h1>
+  
+
   <app-days [hacky]="hacky" (hacked)="onHacked()"></app-days>
+
+  <!-- <div class='indian-pattern'>
+    <div class="first-line"></div>
+    <div class="second-line"></div>
+    <div class="third-line"></div>
+    <div class="fourth-line"></div>
+  </div> -->
 </div>

@@ -1,11 +1,13 @@
 .days button{
     border-radius: 7px;
+    border: solid 2px black;
     img{
         position: absolute;
         left: 25px;
         height: 70%;
     }
-}
+    font-weight: normal;
+    font-family: 'dk';}
 
 .dayText{
     position: absolute;

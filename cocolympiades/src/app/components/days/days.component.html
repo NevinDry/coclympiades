@@ -1,21 +1,21 @@
 <div *ngIf="daySelected == null" class="columns days mt-2">
     <button (click)="selectDay(1)" [disabled]="isDisabled(0)"
-        class="column button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-4 bd-notification">
+        class="column button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-black is-size-4 bd-notification">
         <img *ngIf="isDisabled(0)" src="../../../assets/lock.png" /> Jour 1</button>
-    <button (click)="selectDay(2)" [disabled]="isDisabled(1594542600000)"
-        class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-4 bd-notification">
-        <img *ngIf="isDisabled(1594542600000)" src="../../../assets/lock.png" /> Jour 2
+    <button (click)="selectDay(2)" [disabled]="isDisabled(1629439200000)"
+        class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-black is-size-4 bd-notification">
+        <img *ngIf="isDisabled(1629439200000)" src="../../../assets/lock.png" /> Jour 2
     </button>
-    <button (click)="selectDay(3)" [disabled]="isDisabled(1594629000000)"
-        class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-white is-size-4 bd-notification">
-        <img *ngIf="isDisabled(1594629000000)" src="../../../assets/lock.png" />Jour 3
-    </button>
-    <button [disabled]="isDisabled(1594645200000)" [routerLink]="['/vote']"
-        class="column  button is-fullwidth is-12 has-text-centered is-success mt-3 has-text-white is-size-4 bd-notification">
-        <img *ngIf="isDisabled(1594645200000)" src="../../../assets/lock.png" /> Vote
+    <button (click)="selectDay(3)" [disabled]="isDisabled(1629525600000)"
+        class="column  button is-fullwidth is-12 has-text-centered has-background-primary mt-3 has-text-black is-size-4 bd-notification">
+        <img *ngIf="isDisabled(1629525600000)" src="../../../assets/lock.png" />Jour 3
+    </button> 
+    <button [disabled]="isDisabled(1629561600000)" [routerLink]="['/vote']"
+        class="column  button is-fullwidth is-12 has-text-centered is-info mt-3 has-text-black is-size-4 bd-notification">
+        <img *ngIf="isDisabled(1629561600000)" src="../../../assets/lock.png" /> Vote
     </button>
     <button [disabled]="!ended && hackit()"  [routerLink]="['/results']"
-        class="column  button is-fullwidth is-12 has-text-centered  is-success mt-3 has-text-white is-size-4 bd-notification">
+        class="column  button is-fullwidth is-12 has-text-centered  is-info mt-3 has-text-black is-size-4 bd-notification">
         <img *ngIf="!ended && hackit()" src="../../../assets/lock.png" /> Resultats
     </button>
 </div>
@@ -23,11 +23,11 @@
 <div *ngIf="daySelected" class="columns mt-2">
     <div *ngFor="let trial of daySelected.trials" class="card mt-5">
         <header class="card-header has-background-primary " (click)="selectTrial(trial)">
-            <p class="card-header-title has-text-white is-size-6">
+            <p class="card-header-title has-text-black is-size-6">
                 Epreuve {{trial.id}} &nbsp;
                 <span class="is-size-6 has-text-weight-light"> - {{trial.name}}</span>
             </p>
-            <div class="navbar-burger burger card-header-icon has-text-white">
+            <div class="navbar-burger burger card-header-icon has-text-black">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -35,11 +35,11 @@
         </header>
         <div *ngIf="trialSelected && trialSelected.id == trial.id" id="collapsible-card" class="is-collapsible">
             <div *ngIf="team"  class="card-content">
-                <p class="title is-4 has-text-primary mb-0">
+                <p class="title is-4 has-text-black mb-0">
                     {{team.name}}
                 </p>
                 <ng-container *ngFor="let challenger of team.challengers">
-                    <p class="is-5 has-text-primary" [ngClass]="{'has-text-weight-bold': chal.id == challenger.id}">
+                    <p class="is-5 has-text-black" [ngClass]="{'has-text-weight-bold': chal.id == challenger.id}">
                         {{challenger.name}}
                     </p>
                 </ng-container>

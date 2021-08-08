@@ -391,9 +391,11 @@
       {
         "name": "Beer Pong",
         "id": 5,
-        "teams": [{
+        "teams": [
+          {
           "name": "Equipe A",
-          "challengers": [{
+          "challengers": [
+            {
               "name": "Valou", "id" : 6
             },
             {
@@ -1216,31 +1218,12 @@
       {
         "name": "Beer Pong 2",
         "id": 6,
-        "teams": [{
+        "teams": [
+          {
           "name": "Equipe A",
-          "challengers": [{
+          "challengers": [
+            {
               "name": "Valou", "id" : 6
-            },
-            {
-              "name": "Julia", "id" : 19
-
-            },
-            {
-              "name": "Puipui", "id" : 9
-            },
-            {
-              "name": "Didou", "id" : 8
-
-            },
-            {
-              "name": "Jo", "id" : 5
-
-            }
-          ]
-        }, {
-          "name": "Equipe B",
-          "challengers": [{
-              "name": "Antoine", "id" : 10
             },
             {
               "name": "Braudo", "id" : 2
@@ -1254,49 +1237,70 @@
 
             },
             {
-              "name": "Paulo", "id" : 13
+              "name": "Claire", "id" : 16
+
+            }
+          ]
+        }, {
+          "name": "Equipe B",
+          "challengers": [{
+              "name": "Antoine", "id" : 10
+            },
+            {
+              "name": "Puipui", "id" : 9
+
+            },
+            {
+              "name": "Paupau", "id" : 7
+            },
+            {
+              "name": "Cadoum", "id" : 11
+
+            },
+            {
+              "name": "Myke", "id" : 18
 
             }
           ]
         }, {
           "name": "Equipe C",
           "challengers": [{
-              "name": "Myke", "id" : 18
+              "name": "Arthuro", "id" : 15
             },
             {
               "name": "Pedro", "id" : 3
 
             },
             {
-              "name": "Cadoum", "id" : 11
-            },
-            {
-              "name": "Marco", "id" : 4
-
+              "name": "Paulo", "id" : 13
             },
             {
               "name": "Alix", "id" : 14
+
+            },
+            {
+              "name": "Julia", "id" : 19
 
             }
           ]
         }, {
           "name": "Equipe D",
           "challengers": [{
-              "name": "Arthuro", "id" : 15
+              "name": "Jo", "id" : 5
             },
             {
-              "name": "Goeric", "id" : 20
+              "name": "Marco", "id" : 4
 
             },
             {
               "name": "Lili", "id" : 1
             },
             {
-              "name": "Paupau", "id" : 7
+              "name": "Didou", "id" : 8
 
             },
             {
-              "name": "Claire", "id" : 16
+              "name": "Goeric", "id" : 20
 
             }
           ]
@@ -1518,7 +1522,7 @@
   },
   {
     "name": "Jour 3",
-    "id": 1,
+    "id": 3,
     "trials": [{
         "name": "Golf",
         "id": 1,
@@ -1634,14 +1638,14 @@
       },
       {
         "name": "Tir à l'arc",
-        "id": 3,
+        "id": 4,
         "teams": null
       },
 
 
       {
         "name": "Beer Pong 3",
-        "id": 4,
+        "id": 5,
         "teams": [{
           "name": "Equipe A",
           "challengers": [{
@@ -1731,7 +1735,7 @@
 
       {
         "name": "50m Cognac",
-        "id": 5,
+        "id": 6,
         "teams": null
       }
     ]
