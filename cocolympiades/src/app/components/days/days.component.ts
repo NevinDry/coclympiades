@@ -28,13 +28,13 @@ export class DaysComponent implements OnInit {
 
   ngOnInit() {
     this.challengerService.challengerObservable.subscribe((chal) => {
-      this.chal = chal;  
+      this.chal = chal;
       if(this.chal.hippie && this.chal.fairplay){
         this.ended = true;
       }
     });
     this.challengerService.currentDayObservable.subscribe((day) => {
-      this.daySelected = day;  
+      this.daySelected = day;
       this.hacked.emit();
     });
   }
@@ -59,11 +59,10 @@ export class DaysComponent implements OnInit {
     }else{
       return false;
     }
-    
+
   }
 
   selectDay(day: number) {
-    console.log(this.days);
     this.challengerService.setCurrentDay(this.days.find(x => x.id == day));
     this.trialSelected = null;
     this.hacked.emit();

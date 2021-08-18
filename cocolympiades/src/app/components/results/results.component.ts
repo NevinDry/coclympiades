@@ -25,29 +25,33 @@ export class ResultsComponent implements OnInit {
     });
     this.challengerService.getResults().subscribe((data: Array<Challenger>) => {
       try {
-        if (data.length >= 20) {
+        if (data.length >= 19) {
           const fetards = [];
           const fairplays = [];
           const hippies = [];
           const pronos = [];
           data.forEach(element => {
-            fetards.push(element.fetard.name);
-            fairplays.push(element.fairplay.name);
-            hippies.push(element.hippie.name);
-            pronos.push(element.prono.name);
+            if(element.fetard && element.fairplay && element.hippie && element.prono){
+              fetards.push(element.fetard.name);
+              fairplays.push(element.fairplay.name);
+              hippies.push(element.hippie.name);
+              pronos.push(element.prono.name);
+            }else{
+              this.error = "Element doesnt have required data : " + JSON.stringify(element);
+            }
           });
           this.fetard = this.findMostOcc(fetards);
           this.fairplay = this.findMostOcc(fairplays);
           this.hippie = this.findMostOcc(hippies);
           this.prono = this.findMostOcc(pronos);
-  
+
           this.finish = true;
         }else{
           this.challengerService.getChallengers().forEach(challenger => {
-             if(data.find(x => x.id != challenger.id)){
+             if(!data.find(x => x.id == challenger.id)){
                this.missingChallengers.push(challenger);
              }
-          })
+          });
         }
       } catch (error) {
         this.error = error;

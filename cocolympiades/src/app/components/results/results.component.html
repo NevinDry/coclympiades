@@ -1,9 +1,8 @@
-<h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary" >Les elus</h1>
+<h1 class="title has-text-centered has-text-weight-light is-1 has-text-primary">Les elus</h1>
 
-<p *ngIf="!finish" class="has-text-centered has-text-black is-size-4	mb-t"> 
+<p *ngIf="!finish" class="has-text-centered has-text-black is-size-4	mb-t">
     En attente de tous les votes...
-    <br>
-    reste à voter :
+    <br> reste à voter :
     <br>
     <span *ngFor="let missingChalenger of missingChallengers">  
         {{missingChalenger.name}}
@@ -12,24 +11,21 @@
 </p>
 
 <div *ngIf="error">
-    {{error}}
-    {{error.message}}
+    {{error}} {{error.message}}
 </div>
 
 
 <div *ngIf="hippie && finish">
     <p class="has-text-centered has-text-black is-size-4	has-text-weight-bold ">Le + indien</p>
-    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{hippie[0] + ' avec ' + hippie[1] + ' votes'   }}</p>
-    
+    <p class="has-text-centered has-text-black is-size-4 is-underlined	mb-5">{{hippie[0] + ' avec ' + hippie[1] + ' votes' }}</p>
+
     <p class="has-text-centered has-text-black is-size-4	has-text-weight-bold ">Le + fetard</p>
-    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{fetard[0] + ' avec ' + fetard[1] + ' votes'   }}</p>
-    
+    <p class="has-text-centered has-text-black is-size-4 is-underlined	mb-5">{{fetard[0] + ' avec ' + fetard[1] + ' votes' }}</p>
+
     <p class="has-text-centered has-text-black is-size-4	has-text-weight-bold">Le + fairplay</p>
-    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{fairplay[0] + ' avec ' + fairplay[1] + ' votes'   }}</p>
-    
+    <p class="has-text-centered has-text-black is-size-4 is-underlined	mb-5">{{fairplay[0] + ' avec ' + fairplay[1] + ' votes' }}</p>
+
     <p class="has-text-centered has-text-black is-size-4	has-text-weight-bold">Ton prono Favoris</p>
-    <p class="has-text-centered has-text-primary is-size-4 is-underlined	mb-5">{{challenger.prono.name}}</p>
-    
+    <p class="has-text-centered has-text-black is-size-4 is-underlined	mb-5">{{challenger.prono.name}}</p>
+
 </div>
-
-
